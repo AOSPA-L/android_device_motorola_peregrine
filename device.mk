@@ -17,6 +17,8 @@
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/motorola/peregrine/peregrine-vendor.mk)
 
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
